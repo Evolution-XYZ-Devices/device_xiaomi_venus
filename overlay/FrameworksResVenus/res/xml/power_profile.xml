@@ -244,9 +244,9 @@
     </item>
     <item name="wifi.scan">43.47
     </item>
-    <item name="dsp.audio">24
+    <item name="audio">24
     </item>
-    <item name="dsp.video">60
+    <item name="video">60
     </item>
     <item name="camera.flashlight">150
     </item>
