@@ -45,6 +45,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
 
+# Vibrator
+SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream := true
+
 # Include proprietary files
 -include vendor/xiaomi/venus/BoardConfigVendor.mk
 -include vendor/xiaomi/venus-firmware/BoardConfigVendor.mk

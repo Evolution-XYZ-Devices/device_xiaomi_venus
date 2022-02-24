@@ -688,5 +688,10 @@ vendor/etc/thermald-devices.conf
 vendor/firmware/st_fts_k2.ftb
 vendor/firmware/st_fts_k2_htp.ftb
 
-# Vibrator firmware
-vendor/firmware/aw8697_haptic.bin
+# Vibrator effects
+vendor/firmware/0_click_P_RTP.bin
+vendor/firmware/1_doubelClick_P_RTP.bin
+vendor/firmware/2_tick_P_RTP.bin
+vendor/firmware/3_thud_P_RTP.bin
+vendor/firmware/4_pop_P_RTP.bin
+vendor/firmware/5_heavyClick_P_RTP.bin
