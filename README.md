@@ -2,6 +2,8 @@ Copyright (C) 2021 The LineageOS Project
 
 Copyright (C) 2022 The PixelExperience Project
 
+Copyright (C) 2022 Harka Aita and The Evolution X Project
+
 Device configuration for Xiaomi Mi 11
 =========================================
 
