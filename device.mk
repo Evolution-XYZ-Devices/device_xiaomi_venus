@@ -57,7 +57,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xiaomi_sm8350
+    vendor.lineage.touch@1.0-service.xiaomi
 
 # Touchscreen firmware
 PRODUCT_COPY_FILES += \
