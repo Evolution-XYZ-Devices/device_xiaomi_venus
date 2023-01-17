@@ -32,6 +32,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ApertureResVenus \
     FrameworksResVenus \
+    SettingsOverlayM2011K2C \
+    SettingsOverlayM2011K2G \
     SettingsProviderOverlayVenus \
     SettingsResVenus \
     SystemUIResVenus \
