@@ -210,6 +210,7 @@ vendor/lib64/libos.so
 vendor/lib64/libqll10.so
 vendor/lib64/libqllengine.so
 vendor/lib64/libremosaic_wrapper.so
+vendor/lib64/libremosaichvx_stub.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libsnpe_htp.so
 vendor/lib64/libsns_api.so
