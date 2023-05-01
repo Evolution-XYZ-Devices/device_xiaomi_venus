@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:allowBackup="false"
     package="com.aosp.settingsprovideroverlay.venus">
 
     <application android:hasCode="false" />
