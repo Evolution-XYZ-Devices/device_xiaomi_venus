@@ -22,6 +22,7 @@ TARGET_OTA_ASSERT_DEVICE := venus
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/venus
 TARGET_KERNEL_CONFIG := vendor/venus_defconfig
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-prelude
 TARGET_KERNEL_CLANG_VERSION := prelude
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-prelude/bin
 KERNEL_SUPPORTS_LLVM_TOOLS := true
