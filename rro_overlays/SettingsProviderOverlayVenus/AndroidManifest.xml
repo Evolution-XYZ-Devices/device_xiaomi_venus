@@ -1,8 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:allowBackup="false"
     package="com.aosp.settingsprovideroverlay.venus">
 
-    <application android:hasCode="false" />
+    <application android:hasCode="false" android:allowBackup="false"/>
     <overlay android:targetPackage="com.android.providers.settings"
                    android:isStatic="true"
                    android:priority="750"/>
