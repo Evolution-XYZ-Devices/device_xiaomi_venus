@@ -8,8 +8,6 @@
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
 # Call the MiuiCamera setup
-TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT := true
-TARGET_INCLUDES_MIUI_CAMERA := true
 $(call inherit-product-if-exists, vendor/xiaomi/venus-miuicamera/products/miuicamera.mk)
 
 # Audio configs
