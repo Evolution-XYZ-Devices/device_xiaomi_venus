@@ -1,29 +1,28 @@
 [
   {
-    "repository": "Evolution-X-Devices/device_xiaomi_sm8350-common",
+    "repository": "device_xiaomi_sm8350-common",
     "target_path": "device/xiaomi/sm8350-common"
   },
   {
-    "repository": "Evolution-X-Devices/vendor_xiaomi_sm8350-common",
+    "repository": "vendor_xiaomi_sm8350-common",
     "target_path": "vendor/xiaomi/sm8350-common"
   },
   {
-    "repository": "Evolution-X-Devices/vendor_xiaomi_venus",
+    "repository": "vendor_xiaomi_venus",
     "target_path": "vendor/xiaomi/venus"
   },
   {
-    "repository": "android/vendor-blobs/vendor_xiaomi_venus-firmware",
+    "repository": "shaughzam/vendor_xiaomi_venus-firmware",
     "target_path": "vendor/xiaomi/venus-firmware",
     "remote": "gitlab"
   },
   {
-    "repository": "Stallix/vendor_xiaomi_venus-miuicamera",
+    "repository": "shaughzam/vendor_xiaomi_venus-miuicamera",
     "target_path": "vendor/xiaomi/venus-miuicamera",
     "remote": "gitlab"
   },
   {
-    "repository": "PixelExperience-Devices/kernel_xiaomi_venus",
+    "repository": "kernel_xiaomi_venus",
     "target_path": "kernel/xiaomi/venus"
-    "remote": "github"
   }
 ]
