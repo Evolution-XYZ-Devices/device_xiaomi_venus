@@ -24,5 +24,11 @@
   {
     "repository": "kernel_xiaomi_venus",
     "target_path": "kernel/xiaomi/venus"
+  },
+  {
+    "repository": "jjpprrrr/prelude-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-prelude",
+    "branch": "master",
+    "remote": "gitlab"
   }
 ]
