@@ -15,8 +15,8 @@ $(call inherit-product, device/xiaomi/venus/device.mk)
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 EVO_BUILD_TYPE := OFFICIAL
+TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_SUPPORTS_QUICK_TAP := true
-EXTRA_UDFPS_ANIMATIONS := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := venus
