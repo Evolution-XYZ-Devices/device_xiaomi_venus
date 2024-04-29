@@ -4,5 +4,19 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Toggle glove_mode according to touch_sensitivity_mode
+on property:persist.vendor.touch_sensitivity_mode=0 && property:sys.boot_completed=1
+    write /sys/devices/platform/soc/a8c000.spi/spi_master/spi1/spi1.0/glove_mode 00
+
+on property:persist.vendor.touch_sensitivity_mode=1 && property:sys.boot_completed=1
+    write /sys/devices/platform/soc/a8c000.spi/spi_master/spi1/spi1.0/glove_mode 01
+
+# Route touch_sensitivity_mode to persist
+on property:debug.touch_sensitivity_mode=0
+    setprop persist.vendor.touch_sensitivity_mode 0
+
+on property:debug.touch_sensitivity_mode=1
+    setprop persist.vendor.touch_sensitivity_mode 1
+
 on boot
     setprop bluetooth.device.default_name "Mi 11"

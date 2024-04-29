@@ -1,0 +1,25 @@
+[
+  {
+    "repository": "device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common"
+  },
+  {
+    "repository": "vendor_xiaomi_sm8350-common",
+    "target_path": "vendor/xiaomi/sm8350-common"
+  },
+  {
+    "repository": "vendor_xiaomi_venus",
+    "target_path": "vendor/xiaomi/venus"
+  },
+  {
+    "repository": "EvolutionX/vendor_xiaomi_venus-miuicamera",
+    "target_path": "vendor/xiaomi/venus-miuicamera",
+    "remote": "main"
+  },
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_sm8350",
+    "target_path": "kernel/xiaomi/sm8350",
+    "remote": "github",
+    "branch": "14.0"
+  }
+]

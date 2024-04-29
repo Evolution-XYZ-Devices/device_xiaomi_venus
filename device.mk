@@ -17,9 +17,14 @@ PRODUCT_PACKAGES += \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+PRODUCT_PACKAGES += \
+    FrameworksResVenus \
+    SettingsOverlayM2011K2C \
+    SettingsOverlayM2011K2G \
+    SettingsProviderOverlayVenus \
+    SettingsResVenus \
+    SystemUIResVenus \
+    WifiResVenus
 
 # PowerShare
 PRODUCT_PACKAGES += \
@@ -39,6 +44,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Rootdir
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.venus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.venus.rc
+
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.xiaomi
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/venus/venus-vendor.mk)
